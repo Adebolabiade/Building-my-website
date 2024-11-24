@@ -1,18 +1,106 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Designing, Developing, And Refining a Website</title>
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans Web - Careers</title>
+    <link rel="stylesheet" href="style.Css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Hot Beans Web</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#company-profile">Company Profile</a></li>
+                <li><a href="#trainee-profiles">Trainee Profiles</a></li>
+                <li><a href="#job-specs">Job Specifications</a></li>
+                <li><a href="#application-form">Apply Now</a></li>
+                <li><a href="#courses">Web Courses</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Company Profile Section -->
+    <section id="company-profile">
+        <h2>About Hot Beans Web</h2>
+        <p>We are a leading web development company that helps build innovative digital solutions for clients. Join our dynamic team!</p>
+    </section>
 
+    <!-- Trainee Profiles Section -->
+    <section id="trainee-profiles">
+        <h2>Meet Our Trainees</h2>
+        <div class="trainee-grid">
+            <!-- Trainee 1 -->
+            <div class="trainee-card">
+                <img src="images/John Doe.Jpg" alt="Trainee 1">
+                <h3>John Doe</h3>
+                <p>John is currently learning front-end development and has been with us for 6 months.</p>
+            </div>
+            <!-- Trainee 2 -->
+            <div class="trainee-card">
+                <img src="trainee2.jpg" alt="Trainee 2">
+                <h3>Jane Smith</h3>
+                <p>Jane is working on back-end development, focusing on databases and server-side languages.</p>
+            </div>
+            <!-- Trainee 3 -->
+            <div class="trainee-card">
+                <img src="trainee3.jpg" alt="Trainee 3">
+                <h3>Mike Brown</h3>
+                <p>Mike is specializing in full-stack development, learning both front-end and back-end technologies.</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Job Specifications Section -->
+    <section id="job-specs">
+        <h2>Job Specifications</h2>
+        <p>We're looking for talented web developers to join our team. Here’s what we expect:</p>
+        <ul>
+            <li>Proficiency in HTML, CSS, and JavaScript</li>
+            <li>Experience with modern web development frameworks (React, Vue, etc.)</li>
+            <li>Strong problem-solving and communication skills</li>
+            <li>A degree in Computer Science or related field</li>
+        </ul>
+    </section>
 
+    <!-- Application Form Section -->
+    <section id="application-form">
+        <h2>Apply Now</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
 
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br>
 
+            <label for="experience">Previous Experience:</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea><br>
 
-    </body>
+            <button type="reset">Reset Form</button>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
 
+    <!-- Web Development Courses Section -->
+    <section id="courses">
+        <h2>Learn Web Development</h2>
+        <p>Check out these great online courses to enhance your skills:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools Web Development Courses</a></li>
+            <li><a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+            <li><a href="https://www.udemy.com" target="_blank">Udemy Web Development Courses</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Hot Beans Web. All rights reserved. Contact us at: <a href="mailto:contact@hotbeansweb.com">contact@hotbeansweb.com</a></p>
+    </footer>
+</body>
 </html>
