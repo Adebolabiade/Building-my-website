@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Beans Web - Careers</title>
-    <link rel="stylesheet" href="style.Css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="logo">
-            <h1>Hot Beans Web</h1>
+            <h1>Peter Schools</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#company-profile">Company Profile</a></li>
+                <li><a href="/company-profile.html">Company Profile</a></li>
                 <li><a href="#trainee-profiles">Trainee Profiles</a></li>
                 <li><a href="#job-specs">Job Specifications</a></li>
                 <li><a href="#application-form">Apply Now</a></li>
@@ -23,11 +23,7 @@
         </nav>
     </header>
 
-    <!-- Company Profile Section -->
-    <section id="company-profile">
-        <h2>About Hot Beans Web</h2>
-        <p>We are a leading web development company that helps build innovative digital solutions for clients. Join our dynamic team!</p>
-    </section>
+    
 
     <!-- Trainee Profiles Section -->
     <section id="trainee-profiles">
@@ -36,7 +32,7 @@
             <!-- Trainee 1 -->
             <div class="trainee-card">
                 <img src="images/John Doe.Jpg" alt="Trainee 1">
-                <h3>John Doe</h3>
+                <h3>Peter peabody</h3>
                 <p>John is currently learning front-end development and has been with us for 6 months.</p>
             </div>
             <!-- Trainee 2 -->
